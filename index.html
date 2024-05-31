@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>세련된 쇼핑몰</title>
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #f2f2f2;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      padding: 10px;
+      margin: 5px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    nav a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+    .product-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      width: 300px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease;
+    }
+    .product:hover {
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    }
+    .product img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>세련된 쇼핑몰</h1>
+  </header>
+  <nav>
+    <a href="#">홈</a>
+    <a href="#">의류</a>
+    <a href="#">액세서리</a>
+    <a href="#">신발</a>
+    <a href="#">가방</a>
+    <a href="#">고객센터</a>
+  </nav>
+  <div class="product-list">
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="제품 이미지">
+      <h3>제품명</h3>
+      <p>가격: $29.99</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="제품 이미지">
+      <h3>제품명</h3>
+      <p>가격: $39.99</p>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/200" alt="제품 이미지">
+      <h3>제품명</h3>
+      <p>가격: $49.99</p>
+    </div>
+  </div>
+</body>
+</html>
